@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main-container{
+    font-family: 'roboto';
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F4F7FB;
+}
+.card{
+    height:300px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:12px;
+    background-color: white;
+}
+.scoreboard{
+    margin:10px;
+    height:90px;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:9px;
+    background-color:#EEF4FF;
+}
+.value{
+    color:#2563EB;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+.btn{
+   margin:20px;
+   padding:6px;
+}
+.b1{
+    background-color: #3B82F6;
+    border:none;
+    border-radius:6px;
+    width:100px;
+    color:white;
+
+}
+.b2{
+    background-color:#10B981;
+    border:none;
+    border-radius:6px;
+    width:100px;
+    color:white;
+
+}
+.b3{
+    background-color: #EF4444;
+    border:none;
+    border-radius:6px;
+    width:100px;
+    color:white;
+
+}
