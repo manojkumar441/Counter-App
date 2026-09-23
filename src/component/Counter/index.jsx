@@ -19,7 +19,7 @@ const Counter =()=>{
             <div className='btn-container'>
                 <button onClick={onClickDecrease} className='btn b1'>- Decrease</button>
                 <button onClick={onClickIncrease} className='btn b2'>+ Increase</button>
-                <buttton onClick={onClickReset} className='btn b3'> Reset</buttton>
+                <button onClick={onClickReset} className='btn b3'> Reset</button>
             </div>
         </div>
     </div>);
