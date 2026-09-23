@@ -1,5 +1,5 @@
 
-import Counter from './component/Counter'
+import Counter from './component/Counter/Counter.jsx'
 
 export default function App() {
   return (
